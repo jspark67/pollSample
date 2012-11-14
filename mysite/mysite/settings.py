@@ -28,7 +28,7 @@ TIME_ZONE = 'Asia/Seoul'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'ko-KR'
+LANGUAGE_CODE = 'ko'
 
 SITE_ID = 1
 
@@ -120,6 +120,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
+    'fts',
     'polls',
 )
 
